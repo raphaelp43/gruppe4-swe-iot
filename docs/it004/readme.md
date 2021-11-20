@@ -38,7 +38,7 @@
 
 ### Epic04: Uhrzeit anzeigen
 +   ✅ Story 1. (3/3) Vervollständigen Sie die Klasse ClockUtil
-+   Story 2. (/3) Schreiben Sie einen Test der die Implementierung überprüft
++   ✅ Story 2. (3/3) Schreiben Sie einen Test der die Implementierung überprüft
 +   ✅ Story 3. (3/3) Und schreiben Sie eine kleine Demoanwendung die alle Sekunden die Zeit aktualisiert.
 
 
