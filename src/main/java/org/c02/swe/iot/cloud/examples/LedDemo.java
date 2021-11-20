@@ -35,7 +35,7 @@ public class LedDemo {
 		grp4Button.setLed(4,Color.cyan);
 		grp4Button.setLed(12,Color.blue);
 
-
+		grp4Button.allLedsOff();
 
 	}
 
