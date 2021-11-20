@@ -10,16 +10,16 @@
 
 ## ⁕2 (☞ﾟヮﾟ)☞ determine roles Group 4 ☜(ﾟヮﾟ☜)
 
-+   SPITZER Melanie Monika --> Product Owner 
-+   HAAS Christopher Franz --> Scrum Master
++   SPITZER Melanie Monika --> _Product Owner_
++   HAAS Christopher Franz  --> _Scrum Master_
     
-+   PANSI Raphael   --> Software Developer
-+   POPAJ Shqipron --> Software Developer
-+   REISINGER Lukas --> Software Developer
++   PANSI Raphael           --> _Software Developer_
++   POPAJ Shqipron          --> _Software Developer_
++   REISINGER Lukas         --> _Software Developer_
     
-+   GUBESCH Christian --> Software Tester
-+   HARTMANN Ewald --> Software Tester
-+   NOVOSEL Florian --> Software Tester
++   GUBESCH Christian       --> _Software Tester_
++   HARTMANN Ewald          --> _Software Tester_
++   NOVOSEL Florian         --> _Software Tester_
 
 
 ## ⁕3 (☞ﾟヮﾟ)☞ Release-Plan ☜(ﾟヮﾟ☜)
