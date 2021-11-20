@@ -1,18 +1,23 @@
 # Releaseplan
+
 + Time= 09:05
 + Date= 20.11.2021
 #ᓚᘏᗢ
 
-## SPRINT 1: bis 20.11.2021 09:55
-+ EPIC1 inkl. aller 4 Stories
+### SPRINT 0: until 20.11.2021 09:00
++ fulfill all tasks
 
-## SPRINT 2: bis 20.11.2021 ...
-+ EPIC2 inkl. aller 4 Stories
+### SPRINT 1: until 20.11.2021 09:55
++ EPIC1 incl. all 4 stories
 
-## SPRINT 3: bis 20.11.2021 ...
-+ EPIC3 inkl. aller 4 Stories
+###SPRINT 2: until 20.11.2021 11:00
++ EPIC2 incl. all 4 stories
 
-## SPRINT 4: bis 20.11.2021 ...
+### SPRINT 3: until 20.11.2021 13:45
++ EPIC3 incl. all 4 stories
++ Epic4 incl. all 4 stories
+
+### SPRINT 4: until 20.11.2021 ...
 + EPIC4 inkl. aller 4 Stories
 
 
