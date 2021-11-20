@@ -1,4 +1,4 @@
-name: Automated Tests after push
+name: Automated jUnit Tests for Maven Project
 on: push
 jobs:
   run_tests:
