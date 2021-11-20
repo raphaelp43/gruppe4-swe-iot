@@ -15,12 +15,8 @@ public class SpinningWheelDemo {
     static IParticleApi api = new ParticleApi(new ButtonConnection());
 
     public static void main(String[] args) throws ParticleException {
-
         Button button = new Button(api);
-
-        IEffect running = new SpinningWheel(button,1, Color.red,Color.blue);
-        button.allLedsOff();
+        IEffect running = new SpinningWheel(button);
         while (running.next()){};
-        button.allLedsOff();
     }
 }
