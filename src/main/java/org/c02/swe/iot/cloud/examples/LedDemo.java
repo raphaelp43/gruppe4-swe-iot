@@ -1,7 +1,9 @@
 package org.c02.swe.iot.cloud.examples;
 
+import java.awt.*;
 import java.io.IOException;
 
+import org.c02.swe.iot.Button;
 import org.c02.swe.iot.ButtonConnection;
 import org.c02.swe.iot.cloud.api.IParticleApi;
 import org.c02.swe.iot.cloud.api.ParticleApi;
@@ -13,19 +15,27 @@ public class LedDemo {
 
 	public static void main(String[] args) throws IOException, ParticleException {
 
-		api.callMethod("ledsOff", null); // Schaltet die LEDs aus
+		//api.callMethod("ledsOff", null); // Schaltet die LEDs aus
 		// nn = Position 01-12
 		// rrr = rot
 		// ggg = grün
 		// bbb = blau
 		// nnrrrgggbbb
-		api.callMethod("led", "01255255255");
-		api.callMethod("led", "05255000000"); //red
-		api.callMethod("led", "06000255000"); //green
-		api.callMethod("led", "07000000255"); //blue
-		api.callMethod("led", "11000255255");
+		//api.callMethod("led", "01255255255");
+		//api.callMethod("led", "05255000000"); //red
+		//api.callMethod("led", "06000255000"); //green
+		//api.callMethod("led", "07000000255"); //blue
+		//api.callMethod("led", "11000255255");
 
-		api.callMethod("ledsOff", null);
+		//api.callMethod("ledsOff", null);
+
+		Button grp4Button = new Button(api);
+
+		grp4Button.setLed(1, Color.green);
+		grp4Button.setLed(4,Color.cyan);
+		grp4Button.setLed(12,Color.blue);
+
+		grp4Button.allLedsOff();
 
 	}
 
