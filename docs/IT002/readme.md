@@ -7,11 +7,11 @@ Date= 20.11.2021
 
 //Planning Poker for IT001 (Story Points 1 - 8)
 
-Epic01:
+Epic 1: Teilweise Implementierung von Button
     Story 3. Schreiben Sie Für alle einen Test der ohne den Button aus kommt. --> 3 Story Points
     Story 4. Erweitern Sie auch die kleine Applikation die zeigt, wie die LEDS gesetzt und gelöscht werden (LedDemoApp). --> 3 Story Points
 
-Epic02:
+Epic02: Einfache Effekte
     Story 1. Schreiben sie einen Effekt SpinningLed bei dem man die Farbe der Led festgelegt werden kann. 
         Es wird immer nur eine LED eingeschaltet. 
         Man kann die Anzahl angeben wie oft die LED im Kreis laufen soll. --> 3 Story Points
