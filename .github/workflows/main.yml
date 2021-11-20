@@ -26,7 +26,6 @@ jobs:
           path: ${{github.workspace}}/reports
   run_jUnit_tests:
     runs-on: ubuntu-latest
-    needs: run_jUnit_tests
     steps:
       - name: Checkout the repository
         uses: actions/checkout@v2
