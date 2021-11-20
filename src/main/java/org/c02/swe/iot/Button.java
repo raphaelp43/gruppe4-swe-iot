@@ -24,7 +24,7 @@ public class Button implements IButton {
     }
 
     public void allLedsOff() throws ParticleException {
-
+        api.callMethod("ledsOff", null);
     }
 
     public void setLed(LedStatus status) throws ParticleException {

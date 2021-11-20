@@ -65,6 +65,12 @@ public class ButtonTest {
         button.setLed(-1, Color.white);
     }
 
-
+    @Test
+    public void testAllLedsOff() throws ParticleException {
+        IParticleApi api = Mockito.mock(IParticleApi.class);
+        Button button = new Button(api);
+        button.allLedsOff();
+        Mockito.verify(api).callMethod("ledsOff", null);
+    }
 
 }
