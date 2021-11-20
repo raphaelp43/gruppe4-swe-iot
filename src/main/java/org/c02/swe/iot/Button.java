@@ -28,10 +28,12 @@ public class Button implements IButton {
     }
 
     public void setLed(LedStatus status) throws ParticleException {
-
+        this.setLed(status.getPosition(), status.getColor());
     }
 
     public void setLeds(List<LedStatus> statuses) throws ParticleException {
-
+        for (LedStatus status : statuses) {
+            this.setLed(status);
+        }
     }
 }
