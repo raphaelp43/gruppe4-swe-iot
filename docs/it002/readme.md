@@ -39,4 +39,5 @@
 +   ✅ Story 2. (3/3) Schreiben Sie parallel einen Test zu dem Effekt
 +   ✅ Story 3. (3/3) Zeigen sie die Funktion in einer kleinen Anwendung.
 
+
 ## ⁕4 (☞ﾟヮﾟ)☞ Sprint IT002 finished with **15/15** Story Points ☜(ﾟヮﾟ☜)

@@ -41,4 +41,5 @@
 +   Story 2. (/3) Schreiben Sie einen Test der die Implementierung überprüft
 +   Story 3. (/3) Und schreiben Sie eine kleine Demoanwendung die alle Sekunden die Zeit aktualisiert.
 
+
 ## ⁕4 (☞ﾟヮﾟ)☞ Sprint IT004 with **XX/12** Story Points ☜(ﾟヮﾟ☜)
