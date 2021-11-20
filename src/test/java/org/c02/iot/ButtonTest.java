@@ -25,6 +25,7 @@ public class ButtonTest {
         Mockito.verify(api).callMethod("ledsOff", null);
 
     }
+
     @Test
     public void testWrapperLed() throws ParticleException {
 
@@ -48,5 +49,22 @@ public class ButtonTest {
         testButton.setLed(-1, Color.white);
 
     }
+
+    @Test
+    public void testSetLed() throws ParticleException {
+        IParticleApi api = Mockito.mock(IParticleApi.class);
+        Button button = new Button(api);
+        button.setLed(1, Color.white);
+        Mockito.verify(api).callMethod("led", "01255255255");
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void testSetLedInvalid() throws ParticleException {
+        IParticleApi api = Mockito.mock(IParticleApi.class);
+        Button button = new Button(api);
+        button.setLed(-1, Color.white);
+    }
+
+
 
 }
