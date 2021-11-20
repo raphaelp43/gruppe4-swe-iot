@@ -31,11 +31,11 @@ public class LedDemo {
 
 		Button grp4Button = new Button(api);
 
-		grp4Button.setLed(1, Color.green);
-		grp4Button.setLed(4,Color.cyan);
-		grp4Button.setLed(12,Color.blue);
+		for (int i = 1; i < 13; i++) {
+			grp4Button.setLed(i,Color.green);
+		}
 
-
+		grp4Button.allLedsOff();
 
 	}
 
