@@ -37,7 +37,7 @@ jobs:
           restore-keys: ${{ runner.os }}-m2
       - name: Build project
         working-directory: github-actions-java-maven
-        run: mvn -B verify
+        run: mvn -B verify --file pom.xml
       - name: Upload Maven build artifact
         uses: actions/upload-artifact@v2
         with:
