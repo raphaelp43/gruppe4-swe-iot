@@ -24,7 +24,7 @@ public class SpinningLedTest {
         InOrder inOrder = Mockito.inOrder(buttonInstance);
         for (int j = 1; j <= 4; j++) {
             for (int i = 1; i <= 11; i++) {
-                inOrder.verify(buttonInstance).setLed(i, Color.green);
+                inOrder.verify(buttonInstance).setLed(i, Color.blue);
                 inOrder.verify(buttonInstance).allLedsOff();
             }
         }
