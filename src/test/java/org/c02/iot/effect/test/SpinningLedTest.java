@@ -29,10 +29,9 @@ public class SpinningLedTest {
                 inOrder.verify(buttonInstance).allLedsOff();
             }
         }
-        Mockito.verify(buttonInstance).allLedsOff();
-        Mockito.verifyNoMoreInteractions(buttonInstance);
+        inOrder.verifyNoMoreInteractions();
     }
 
-    
+
 
 }
