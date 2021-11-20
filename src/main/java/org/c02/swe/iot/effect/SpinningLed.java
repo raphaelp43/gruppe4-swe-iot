@@ -14,8 +14,15 @@ public class SpinningLed extends AbstractEffect {
 
     public SpinningLed(IButton button, int targetCount, Color color) {
         super(button);
-        this.targetCount = targetCount;
-        this.color = color;
+        if (targetCount >= 0){
+
+            this.targetCount = targetCount;
+            this.color = color;
+        }
+        else {
+            throw new IllegalArgumentException("Count must be >= 0");
+        }
+
     }
 
     @Override
