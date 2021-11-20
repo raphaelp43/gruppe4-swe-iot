@@ -19,18 +19,18 @@ public class SpinningLedTest {
 
         SpinningLed spinningLed = new SpinningLed(buttonInstance, 4, Color.green);
         Assert.assertTrue(spinningLed.next());
+        Assert.assertTrue(spinningLed.next());
+        Assert.assertTrue(spinningLed.next());
+        Assert.assertTrue(spinningLed.next());
 
 
         InOrder inOrder = Mockito.inOrder(buttonInstance);
-        for (int j = 0; j <= 4; j++) {
-            for (int i = 1; i <= 12; i++) {
+        for (int j = 1; j <= 4; j++) {
+            for (int i = 1; i <= 11; i++) {
                 inOrder.verify(buttonInstance).setLed(i, Color.green);
                 inOrder.verify(buttonInstance).allLedsOff();
             }
         }
         inOrder.verifyNoMoreInteractions();
     }
-
-
-
 }

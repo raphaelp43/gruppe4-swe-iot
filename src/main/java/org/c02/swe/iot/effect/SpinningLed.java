@@ -8,28 +8,32 @@ import java.awt.*;
 
 public class SpinningLed extends AbstractEffect {
 
-    protected int count;
+    protected int count = 0;
+    protected int targetCount;
     protected Color color;
 
-    public SpinningLed(IButton button, int count, Color color) {
+    public SpinningLed(IButton button, int targetCount, Color color) {
         super(button);
-        this.count = count;
+        this.targetCount = targetCount;
         this.color = color;
     }
 
     @Override
     public boolean next() throws ParticleException {
-        for (int i = 0; i <= count; i++) {
-            for (int j = 1; j <= 12; j++) {
-                button.setLed(j, color);
-                this.reset();
-            }
+        if (count >= targetCount) {
+            reset();
+            return false;
         }
+        for (int i = 1; i <= 11; i++) {
+            button.setLed(i, color);
+            button.allLedsOff();
+        }
+        count++;
         return true;
     }
 
     @Override
     public void reset() throws ParticleException {
-        button.allLedsOff();
+        count = 0;
     }
 }
