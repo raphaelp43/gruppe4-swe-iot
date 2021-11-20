@@ -3,25 +3,6 @@ name: Build sample Java Maven project
 on: [push, pull_request]
  
 jobs:
-  compile:
-    runs-on: ubuntu-20.04
-    if: "contains(github.event.head_commit.message, '[CI]')"
-    strategy:
-      matrix:
-        java: [ 14, 15, 16 ]
-    name: Java ${{ matrix.java }} compile
-    steps:
-      - name: Checkout Source Code
-        uses: actions/checkout@v2
-      - name: Setup Java
-        uses: actions/setup-java@v2
-        with:
-          distribution: 'adopt'
-          java-package: jdk
-          java-version: ${{ matrix.java }}
-      - name: Compile the Project
-        working-directory: github-actions-java-maven
-        run: mvn -B compile
   build:
     runs-on: ubuntu-20.04
     needs: compile
