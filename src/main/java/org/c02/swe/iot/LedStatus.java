@@ -1,6 +1,7 @@
 package org.c02.swe.iot;
 
 import java.awt.*;
+import java.util.Objects;
 
 public class LedStatus {
 
@@ -18,5 +19,13 @@ public class LedStatus {
 
     public Color getColor() {
         return color;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        LedStatus ledStatus = (LedStatus) o;
+        return position == ledStatus.position && Objects.equals(color, ledStatus.color);
     }
 }
