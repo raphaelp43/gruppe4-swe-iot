@@ -8,16 +8,19 @@ import org.c02.swe.iot.cloud.api.ParticleException;
 
 public class Button implements IButton {
 
+    private final IParticleApi api;
 
-
-    public Button(IParticleApi wrapperInstance) {
-
+    public Button(IParticleApi api) {
+        this.api = api;
     }
 
-
     public void setLed(int position, Color color) throws ParticleException {
-
-
+        if (position >= 1 && position <= 12) {
+            String parameter = String.format("%02d", position) + color.getRed() + color.getGreen() + color.getBlue();
+            api.callMethod("led", parameter);
+        } else {
+            throw new IllegalArgumentException("Position must be between 1 and 12");
+        }
     }
 
     public void allLedsOff() throws ParticleException {
