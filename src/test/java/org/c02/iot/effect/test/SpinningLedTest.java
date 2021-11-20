@@ -14,7 +14,6 @@ public class SpinningLedTest {
 
     @Test
     public void testSpinningLed() throws ParticleException {
-        //setup
         IButton buttonInstance = Mockito.mock(IButton.class);
 
         SpinningLed spinningLed = new SpinningLed(buttonInstance, 4, Color.green);
@@ -31,10 +30,10 @@ public class SpinningLedTest {
         }
         inOrder.verifyNoMoreInteractions();
     }
+
     @Test(expected = IllegalArgumentException.class)
     public void testSpinningLedInvalid() throws ParticleException {
-        //setup
         IButton buttonInstance = Mockito.mock(IButton.class);
-        SpinningLed spinningLed = new SpinningLed(buttonInstance, -1, Color.green);
+        new SpinningLed(buttonInstance, -1, Color.green);
     }
 }
