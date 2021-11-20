@@ -33,15 +33,11 @@
 ## ⁕3 (☞ﾟヮﾟ)☞ Sprint-Retrospektive (max. 5 Minuten)  ☜(ﾟヮﾟ☜)
 
 ### Epic03: Vervollständigen der Button Implementierung
-+   ✅ Story 1. (/1) Vervollständigen der Button Implementierung
-+   ❌ Story 2. (/1) Erweitern des ButtonTests um die neuen Methoden.
-+   Story 3. (/3) Erstellen sie einen Effekt SpinningWheel der Rot Blau Leds im Uhrzeigersinn rotieren lässt
-+   Story 4. (/2) Schreiben sie auch einen Testfall für diesen Effekt
-+   Story 5. (/1) Erstellen sie auch eine Demoanwendung für diesen Effekt.
++   ✅ Story 1. (1/1) Vervollständigen der Button Implementierung
++   ❌ Story 2. (0/1) Erweitern des ButtonTests um die neuen Methoden.
++   Story 3. (3/3) Erstellen sie einen Effekt SpinningWheel der Rot Blau Leds im Uhrzeigersinn rotieren lässt
++   Story 4. (0/2) Schreiben sie auch einen Testfall für diesen Effekt
++   Story 5. (1/1) Erstellen sie auch eine Demoanwendung für diesen Effekt.
 
-### Epic04: Uhrzeit anzeigen
-+   Story 1. (/3) Vervollständigen Sie die Klasse ClockUtil
-+   Story 2. (/3) Schreiben Sie einen Test der die Implementierung überprüft
-+   Story 3. (/3) Und schreiben Sie eine kleine Demoanwendung die alle Sekunden die Zeit aktualisiert.
 
-## ⁕4 (☞ﾟヮﾟ)☞ Sprint IT002 with 15/15 Story Points ☜(ﾟヮﾟ☜)
+## ⁕4 (☞ﾟヮﾟ)☞ Sprint IT003 finished with 5/8 Story Points ☜(ﾟヮﾟ☜)
