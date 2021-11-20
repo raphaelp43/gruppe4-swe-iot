@@ -1,4 +1,4 @@
-# ⚜ Sprint 3 ⚜
+# ⚜ Sprint 4 ⚜
 
 + Time= 14:00 - 15:10
 + Date= 20.11.2021
@@ -27,7 +27,7 @@
 +   Story 3. Und schreiben Sie eine kleine Demoanwendung die alle Sekunden die Zeit aktualisiert. --> **3 Story Points**
 
 
-## ⁕2 (☞ﾟヮﾟ)☞ Sprint IT003 planned with **12** Story Points ☜(ﾟヮﾟ☜)
+## ⁕2 (☞ﾟヮﾟ)☞ Sprint IT004 planned with **12** Story Points ☜(ﾟヮﾟ☜)
 
 
 ## ⁕3 (☞ﾟヮﾟ)☞ Sprint-Retrospektive (max. 5 Minuten)  ☜(ﾟヮﾟ☜)
@@ -41,4 +41,4 @@
 +   Story 2. (/3) Schreiben Sie einen Test der die Implementierung überprüft
 +   Story 3. (/3) Und schreiben Sie eine kleine Demoanwendung die alle Sekunden die Zeit aktualisiert.
 
-## ⁕4 (☞ﾟヮﾟ)☞ Sprint IT002 with 15/15 Story Points ☜(ﾟヮﾟ☜)
+## ⁕4 (☞ﾟヮﾟ)☞ Sprint IT004 with **XX/12** Story Points ☜(ﾟヮﾟ☜)

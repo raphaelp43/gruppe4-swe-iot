@@ -8,7 +8,6 @@
 ## ⁕1 (☞ﾟヮﾟ)☞ Sprint-Planning ☜(ﾟヮﾟ☜)
 
 #### Team Rule: Planning Poker for IT001 (Story Points 1 - 8)
-//Stories aus Epic 04 wurden nach Abschätzung der Entwicklung auch in IT003 genommen
 
 ### Epic 1: Teilweise Implementierung von Button ✅
 
@@ -35,4 +34,4 @@
 +   ✅ Story 5. (1/1) Erstellen sie auch eine Demoanwendung für diesen Effekt.
 
 
-## ⁕4 (☞ﾟヮﾟ)☞ Sprint IT003 finished with 5/8 Story Points ☜(ﾟヮﾟ☜)
+## ⁕4 (☞ﾟヮﾟ)☞ Sprint IT003 finished with **5/8** Story Points ☜(ﾟヮﾟ☜)
