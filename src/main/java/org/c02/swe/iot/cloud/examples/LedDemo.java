@@ -2,9 +2,11 @@ package org.c02.swe.iot.cloud.examples;
 
 import java.awt.*;
 import java.io.IOException;
+import java.util.LinkedList;
 
 import org.c02.swe.iot.Button;
 import org.c02.swe.iot.ButtonConnection;
+import org.c02.swe.iot.LedStatus;
 import org.c02.swe.iot.cloud.api.IParticleApi;
 import org.c02.swe.iot.cloud.api.ParticleApi;
 import org.c02.swe.iot.cloud.api.ParticleException;
@@ -36,6 +38,17 @@ public class LedDemo {
 		}
 
 		grp4Button.allLedsOff();
+
+
+		grp4Button.setLed(new LedStatus(2, Color.blue));
+
+
+		LinkedList<LedStatus> ld = new LinkedList<LedStatus>();
+		ld.add(new LedStatus(3, Color.red));
+		ld.add(new LedStatus(5, Color.blue));
+		ld.add(new LedStatus(12, Color.green));
+		ld.add(new LedStatus(10, Color.ORANGE));
+		grp4Button.setLeds(ld);
 
 	}
 
