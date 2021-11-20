@@ -1,8 +1,9 @@
-name: Automated Tests after push
+name: Automated jUnit Tests for Maven Project
 on: push
 jobs:
   run_tests:
     runs-on: ubuntu-latest
+    if: "contains(github.event.head_commit.message, '[CI Test]')"
     steps:
       - name: Checkout the repository
         uses: actions/checkout@v2
