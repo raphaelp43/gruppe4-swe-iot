@@ -15,18 +15,15 @@ import org.c02.swe.iot.cloud.api.ParticleException;
 
 public class ClockDemo {
 
-    public static void main(String[] args) throws IOException, ParticleException {
+    public static void main(String[] args) throws IOException, ParticleException, InterruptedException {
         IParticleApi api = new ParticleApi(new ButtonConnection());
         IButton demoButton = new Button(api);
         ClockUtil demoClockUtil = new ClockUtil(demoButton);
 
-        Calendar calendar = new GregorianCalendar();
-        calendar.set(Calendar.HOUR, 3);
-        calendar.set(Calendar.MINUTE, 19);
-        calendar.set(Calendar.SECOND, 50);
-        Date date = calendar.getTime();
-
-        demoClockUtil.show(date);
+        while(true){
+            demoClockUtil.show(new GregorianCalendar().getTime());
+            Thread.sleep(1000);
+        }
     }
 
 }
