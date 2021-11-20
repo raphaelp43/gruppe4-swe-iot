@@ -16,7 +16,7 @@ public class SpinningLedTest {
     public void testSpinningLed() throws ParticleException {
         IButton buttonInstance = Mockito.mock(IButton.class);
 
-        SpinningLed spinningLed = new SpinningLed(buttonInstance, 4, Color.green);
+        SpinningLed spinningLed = new SpinningLed(buttonInstance, 4, Color.blue);
         Assert.assertTrue(spinningLed.next());
         Assert.assertTrue(spinningLed.next());
         Assert.assertTrue(spinningLed.next());
