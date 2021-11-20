@@ -14,7 +14,7 @@
 + EPIC2 incl. all 4 stories
 
 ### SPRINT 3: until 20.11.2021 13:45
-+ EPIC3 incl. all 4 stories
++ EPIC3 incl. all 5 stories
 + Epic4 incl. all 4 stories
 
 ### SPRINT 4: until 20.11.2021 ...

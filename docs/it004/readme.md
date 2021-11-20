@@ -1,6 +1,6 @@
-# ⚜ Sprint 4 ⚜
+# ⚜ Sprint 3 ⚜
 
-+ Time= 13:xx - 14:XX
++ Time= 12:30 - 13:45
 + Date= 20.11.2021
 #ᓚᘏᗢ
 
@@ -33,11 +33,11 @@
 ## ⁕3 (☞ﾟヮﾟ)☞ Sprint-Retrospektive (max. 5 Minuten)  ☜(ﾟヮﾟ☜)
 
 ### Epic03: Vervollständigen der Button Implementierung
-+   ✅ Story 1. (/3) Vervollständigen der Button Implementierung
-+   ❌ Story 2. (/3) Erweitern des ButtonTests um die neuen Methoden.
++   ✅ Story 1. (/1) Vervollständigen der Button Implementierung
++   ❌ Story 2. (/1) Erweitern des ButtonTests um die neuen Methoden.
 +   Story 3. (/3) Erstellen sie einen Effekt SpinningWheel der Rot Blau Leds im Uhrzeigersinn rotieren lässt
-+   Story 4. (/3) Schreiben sie auch einen Testfall für diesen Effekt
-+   Story 5. (/3) Erstellen sie auch eine Demoanwendung für diesen Effekt.
++   Story 4. (/2) Schreiben sie auch einen Testfall für diesen Effekt
++   Story 5. (/1) Erstellen sie auch eine Demoanwendung für diesen Effekt.
 
 ### Epic04: Uhrzeit anzeigen
 +   Story 1. (/3) Vervollständigen Sie die Klasse ClockUtil
