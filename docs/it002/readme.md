@@ -1,11 +1,11 @@
-# Sprint 2
+# ⚜ Sprint 2 ⚜
 
 + Time= 10:10 - 11:00
 + Date= 20.11.2021
 #ᓚᘏᗢ
 
 
-## 1 (☞ﾟヮﾟ)☞ Sprint-Planning ☜(ﾟヮﾟ☜)
+## ⁕1 (☞ﾟヮﾟ)☞ Sprint-Planning ☜(ﾟヮﾟ☜)
 
 #### Team Rule: Planning Poker for IT001 (Story Points 1 - 8)
 
@@ -23,10 +23,10 @@
 +   Story 3. Zeigen sie die Funktion in einer kleinen Anwendung. --> **3 Story Points**
 
 
-## 2 (☞ﾟヮﾟ)☞ Sprint IT002 planned with **15** Storypoints ☜(ﾟヮﾟ☜)
+## ⁕2 (☞ﾟヮﾟ)☞ Sprint IT002 planned with **15** Story Points ☜(ﾟヮﾟ☜)
 
 
-## 3 (☞ﾟヮﾟ)☞ Sprint-Retrospektive (max. 5 Minuten)  ☜(ﾟヮﾟ☜)
+## ⁕3 (☞ﾟヮﾟ)☞ Sprint-Retrospektive (max. 5 Minuten)  ☜(ﾟヮﾟ☜)
 
 ### Retro Epic01:
 +   ✅ Story 3. (3/3) Schreiben Sie Für alle einen Test der ohne den Button aus kommt.
@@ -39,4 +39,4 @@
 +   ✅ Story 2. (3/3) Schreiben Sie parallel einen Test zu dem Effekt
 +   ✅ Story 3. (3/3) Zeigen sie die Funktion in einer kleinen Anwendung.
 
-## 4 (☞ﾟヮﾟ)☞ Sprint IT002 finished with **15/15** Storypoints ☜(ﾟヮﾟ☜)
+## ⁕4 (☞ﾟヮﾟ)☞ Sprint IT002 finished with **15/15** Story Points ☜(ﾟヮﾟ☜)

@@ -1,11 +1,11 @@
-# Sprint 3
+# ⚜ Sprint 3 ⚜
 
 + Time= 12:30 - 13:45
 + Date= 20.11.2021
 #ᓚᘏᗢ
 
 
-## 1 (☞ﾟヮﾟ)☞ Sprint-Planning ☜(ﾟヮﾟ☜)
+## ⁕1 (☞ﾟヮﾟ)☞ Sprint-Planning ☜(ﾟヮﾟ☜)
 
 #### Team Rule: Planning Poker for IT001 (Story Points 1 - 8)
 //Stories aus Epic 04 wurden nach Abschätzung der Entwicklung auch in IT003 genommen
@@ -27,10 +27,10 @@
 +   Story 3. Und schreiben Sie eine kleine Demoanwendung die alle Sekunden die Zeit aktualisiert. --> **3 Story Points**
 
 
-## 2 (☞ﾟヮﾟ)☞ Sprint IT003 planned with **17** Storypoints ☜(ﾟヮﾟ☜)
+## ⁕2 (☞ﾟヮﾟ)☞ Sprint IT003 planned with **17** Story Points ☜(ﾟヮﾟ☜)
 
 
-## 3 (☞ﾟヮﾟ)☞ Sprint-Retrospektive (max. 5 Minuten)  ☜(ﾟヮﾟ☜)
+## ⁕3 (☞ﾟヮﾟ)☞ Sprint-Retrospektive (max. 5 Minuten)  ☜(ﾟヮﾟ☜)
 
 ### Epic03: Vervollständigen der Button Implementierung
 +   ✅ Story 1. (/3) Vervollständigen der Button Implementierung
@@ -44,4 +44,4 @@
 +   Story 2. (/3) Schreiben Sie einen Test der die Implementierung überprüft
 +   Story 3. (/3) Und schreiben Sie eine kleine Demoanwendung die alle Sekunden die Zeit aktualisiert.
 
-## 4 (☞ﾟヮﾟ)☞ Sprint IT002 with 15/15 Storypoints ☜(ﾟヮﾟ☜)
+## ⁕4 (☞ﾟヮﾟ)☞ Sprint IT002 with 15/15 Story Points ☜(ﾟヮﾟ☜)

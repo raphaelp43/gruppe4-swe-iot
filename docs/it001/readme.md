@@ -1,11 +1,11 @@
-# Sprint 1
+# ⚜ Sprint 1 ⚜
 
 + Time= 09:00 - 09:50
 + Date= 20.11.2021
 #ᓚᘏᗢ
 
 
-## 1 (☞ﾟヮﾟ)☞ Sprint-Planning ☜(ﾟヮﾟ☜)
+## ⁕1 (☞ﾟヮﾟ)☞ Sprint-Planning ☜(ﾟヮﾟ☜)
 
 #### Team Rule: Planning Poker for IT001 (Story Points 1 - 8)
 
@@ -16,10 +16,10 @@
 +    Story 4. Erweitern Sie auch die kleine Applikation die zeigt, wie die LEDS gesetzt und gelöscht werden (LedDemoApp). --> 3 Story Points
 
 
-## 2 (☞ﾟヮﾟ)☞ Sprint IT001 planned with **10** Storypoints ☜(ﾟヮﾟ☜)
+## ⁕2 (☞ﾟヮﾟ)☞ Sprint IT001 planned with **10** Story Points ☜(ﾟヮﾟ☜)
 
 
-## 3 (☞ﾟヮﾟ)☞ Sprint-Retrospektive (max. 5 Minuten)  ☜(ﾟヮﾟ☜)
+## ⁕3 (☞ﾟヮﾟ)☞ Sprint-Retrospektive (max. 5 Minuten)  ☜(ﾟヮﾟ☜)
 
 //Angabe falsch verstanden --> viel Arbeit für nix ¯\_(ツ)_/¯
 
@@ -29,5 +29,5 @@
 +   ❌ Story 3. (0/3) Schreiben Sie Für alle einen Test der ohne den Button aus kommt.
 +   ❌ Story 4. (0/3) Erweitern Sie auch die kleine Applikation die zeigt, wie die LEDS gesetzt und gelöscht werden (LedDemoApp).
 
-## 4 (☞ﾟヮﾟ)☞ Sprint IT001 finished with **4/10** Storypoints ☜(ﾟヮﾟ☜)
+## ⁕4 (☞ﾟヮﾟ)☞ Sprint IT001 finished with **4/10** Story Points ☜(ﾟヮﾟ☜)
 
