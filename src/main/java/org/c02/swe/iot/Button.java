@@ -32,8 +32,15 @@ public class Button implements IButton {
     }
 
     public void setLeds(List<LedStatus> statuses) throws ParticleException {
+        StringBuilder parameter = new StringBuilder();
         for (LedStatus status : statuses) {
-            this.setLed(status);
+            int position = status.getPosition();
+            Color color = status.getColor();
+            parameter.append(String.format("%02d", position))
+                    .append(String.format("%03d", color.getRed()))
+                    .append(String.format("%03d", color.getGreen()))
+                    .append(String.format("%03d", color.getBlue()));
         }
+        api.callMethod("ledMultiple", parameter.toString());
     }
 }
