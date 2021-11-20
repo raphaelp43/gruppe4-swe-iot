@@ -52,24 +52,25 @@ public class ButtonTest {
     }
 
     @Test
-    public void testSetSetLeds() throws ParticleException {
-        Button mockButton = Mockito.mock(Button.class);
+    public void testSetLeds() throws ParticleException {
+        IParticleApi api = Mockito.mock(IParticleApi.class);
+        Button testButton = new Button(api);
 
         List<LedStatus> statuses = new ArrayList<>();
         statuses.add(new LedStatus(1, Color.white));
         statuses.add(new LedStatus(2, Color.green));
         statuses.add(new LedStatus(3, Color.red));
-
-        Mockito.doNothing().when(mockButton).setLed(statuses.get(0));
-        Mockito.doNothing().when(mockButton).setLed(statuses.get(1));
-        Mockito.doNothing().when(mockButton).setLed(statuses.get(2));
-        Mockito.doCallRealMethod().when(mockButton).setLeds(statuses);
-        mockButton.setLeds(statuses);
-
-        Mockito.verify(mockButton).setLed(statuses.get(0));
-        Mockito.verify(mockButton).setLed(statuses.get(1));
-        Mockito.verify(mockButton).setLed(statuses.get(2));
-        Mockito.verify(mockButton).setLeds(statuses);
+        StringBuilder parameter = new StringBuilder();
+        for (LedStatus status : statuses) {
+            int position = status.getPosition();
+            Color color = status.getColor();
+            parameter.append(String.format("%02d", position))
+                    .append(String.format("%03d", color.getRed()))
+                    .append(String.format("%03d", color.getGreen()))
+                    .append(String.format("%03d", color.getBlue()));
+        }
+        testButton.setLeds(statuses);
+        Mockito.verify(api).callMethod("ledMultiple", parameter.toString());
     }
 
 }
