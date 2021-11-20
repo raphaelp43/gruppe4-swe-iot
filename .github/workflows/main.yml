@@ -1,9 +1,32 @@
 name: CI Pipeline
 on: push
 jobs:
-  run_jUnit_tests:
+  depecheck_test:
     runs-on: ubuntu-latest
     if: "contains(github.event.head_commit.message, '[CI]')"
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Build project with Maven
+        run: mvn clean install
+      - name: Depcheck
+        uses: dependency-check/Dependency-Check_Action@main
+        id: Depcheck
+        with:
+          project: 'SWE Project Gruppe 4'
+          path: '.'
+          format: 'HTML'
+          args: >
+            --failOnCVSS 7
+            --enableRetired
+      - name: Upload Test results
+        uses: actions/upload-artifact@master
+        with:
+          name: dependency-check report
+          path: ${{github.workspace}}/reports
+  run_jUnit_tests:
+    runs-on: ubuntu-latest
+    needs: run_jUnit_tests
     steps:
       - name: Checkout the repository
         uses: actions/checkout@v2
