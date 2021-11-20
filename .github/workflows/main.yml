@@ -50,9 +50,9 @@ jobs:
       - uses: actions/setup-java@v1
         with:
           java-version: 14
-      - run: mvn -B org.c02.swe.iot.effect --file pom.xml -DskipTests
+      - run: mvn -B package --file pom.xml -DskipTests
       - run: mkdir staging && cp target/*jar-with-dependencies.jar staging
       - uses: actions/upload-artifact@v1
         with:
-          name: org.c02.swe.iot.effect
+          name: Package
           path: staging
