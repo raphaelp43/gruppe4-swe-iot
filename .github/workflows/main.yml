@@ -1,7 +1,3 @@
-name: Test and Build
- 
-on: [push, pull_request]
- 
 name: CI Pipeline
 on: push
 jobs:
