@@ -1,0 +1,25 @@
+Time= 08:20
+Date= 20.11.2021
+
+determine group members:
+
+Group 4{
+    SPITZER Melanie Monika --> Prduct Owner
+    HAAS Christopher Franz --> Scrummaster
+
+    PANSI Raphael   --> Software Developer
+    POPAJ Shqipron --> Software Developer
+    REISINGER Lukas --> Software Developer
+
+    GUBESCH Christian --> Software Tester
+    HARTMANN Ewald --> Software Tester
+    NOVOSEL Florian --> Software Tester
+}
+08:40
+Meeting mit Vortragenden
+08:50
+
+IT01 60 Minuten
+
+
+09:55 channel
