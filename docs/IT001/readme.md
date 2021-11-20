@@ -6,7 +6,7 @@ Date= 20.11.2021
 
 //Team Rule: Planning Poker for IT001 (Story Points 1 - 8)
 
-Epic01:
+Epic 1: Teilweise Implementierung von Button
     Story 1. Implementieren Sie die Methoden zum Setzen der Leds --> 2 Story Points
     Story 2. Implementieren Sie Abschalten der Leds. --> 2 Story Points
     Story 3. Schreiben Sie Für alle einen Test der ohne den Button aus kommt. --> 3 Story Points
