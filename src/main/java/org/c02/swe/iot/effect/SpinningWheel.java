@@ -26,6 +26,8 @@ public class SpinningWheel extends AbstractEffect {
             reset();
             return false;
         }
+        button.allLedsOff();
+        ledStatuses = new ArrayList<>();
         ledStatuses.add(new LedStatus(count, firstColor));
         ledStatuses.add(new LedStatus(count + 1, secondColor));
         button.setLeds(ledStatuses);
@@ -36,6 +38,6 @@ public class SpinningWheel extends AbstractEffect {
     @Override
     public void reset() throws ParticleException {
         button.allLedsOff();
-        count = 0;
+        count = 1;
     }
 }
