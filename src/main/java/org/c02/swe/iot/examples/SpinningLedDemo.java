@@ -16,7 +16,8 @@ public class SpinningLedDemo {
 
     public static void main(String[] args) throws ParticleException {
         Button button = new Button(api);
-        IEffect running = new SpinningLed(button, 3, Color.red);
+        IEffect running = new SpinningLed(button, 3, Color.yellow);
         running.next();
+
     }
 }
