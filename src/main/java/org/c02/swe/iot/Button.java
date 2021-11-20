@@ -29,11 +29,9 @@ public class Button implements IButton {
 
     public void setLed(LedStatus status) throws ParticleException {
 
-
     }
 
     public void setLeds(List<LedStatus> statuses) throws ParticleException {
-
 
     }
 }
