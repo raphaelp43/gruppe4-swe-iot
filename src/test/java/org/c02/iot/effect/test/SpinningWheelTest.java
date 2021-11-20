@@ -22,33 +22,15 @@ public class SpinningWheelTest {
         IButton buttonInstance = Mockito.mock(IButton.class);
 
         SpinningWheel spinningLed = new SpinningWheel(buttonInstance);
-
-        Assert.assertTrue(spinningLed.next());
-//        Assert.assertTrue(spinningLed.next());
-//        Assert.assertTrue(spinningLed.next());
-//        Assert.assertTrue(spinningLed.next());
-
-        List<LedStatus> ledStatuses = new ArrayList<>();
-
         InOrder inOrder = Mockito.inOrder(buttonInstance);
-        ledStatuses.add(new LedStatus(1, Color.red));
-        ledStatuses.add(new LedStatus(2, Color.blue));
-        inOrder.verify(buttonInstance).setLeds(new ArrayList<>(ledStatuses));
-//        ledStatuses.add(new LedStatus(3, Color.red));
-//        ledStatuses.add(new LedStatus(4, Color.blue));
-//        inOrder.verify(buttonInstance).setLeds(new ArrayList<>(ledStatuses));
-//        ledStatuses.add(new LedStatus(5, Color.red));
-//        ledStatuses.add(new LedStatus(6, Color.blue));
-//        inOrder.verify(buttonInstance).setLeds(new ArrayList<>(ledStatuses));
-//        ledStatuses.add(new LedStatus(7, Color.red));
-//        ledStatuses.add(new LedStatus(8, Color.blue));
-//        inOrder.verify(buttonInstance).setLeds(new ArrayList<>(ledStatuses));
-//        ledStatuses.add(new LedStatus(9, Color.red));
-//        ledStatuses.add(new LedStatus(10, Color.blue));
-//        inOrder.verify(buttonInstance).setLeds(new ArrayList<>(ledStatuses));
-//
-//        inOrder.verify(buttonInstance).allLedsOff();
-//
-//        inOrder.verifyNoMoreInteractions();
+        for (int i = 1; i <= 10; i+=3){
+            Assert.assertTrue(spinningLed.next());
+            inOrder.verify(buttonInstance).allLedsOff();
+            List<LedStatus> ledStatuses = new ArrayList<>();
+            ledStatuses.add(new LedStatus(i, Color.red));
+            ledStatuses.add(new LedStatus(i+1, Color.blue));
+            inOrder.verify(buttonInstance).setLeds(ledStatuses);
+        }
+        inOrder.verifyNoMoreInteractions();
     }
 }
