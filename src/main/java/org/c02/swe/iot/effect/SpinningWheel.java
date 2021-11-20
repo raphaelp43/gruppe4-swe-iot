@@ -22,13 +22,13 @@ public class SpinningWheel extends AbstractEffect {
 
     @Override
     public boolean next() throws ParticleException {
-        button.setLeds(ledStatuses);
         if (count >= 11) {
             reset();
             return false;
         }
         ledStatuses.add(new LedStatus(count, firstColor));
         ledStatuses.add(new LedStatus(count + 1, secondColor));
+        button.setLeds(ledStatuses);
         count += 3;
         return true;
     }
